@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="768.0" prefWidth="1366.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <VBox layoutX="45.0" layoutY="116.0" prefHeight="480.0" prefWidth="450.0">
+            <children>
+                <HBox prefHeight="40.0" prefWidth="450.0">
+                    <children>
+                        <Label alignment="TOP_LEFT" prefHeight="30.0" prefWidth="250.0" text="Transaction ID:">
+                            <font>
+                                <Font name="System Bold Italic" size="18.0" />
+                            </font></Label>
+                        <Label fx:id="transactionIdLabel" alignment="TOP_RIGHT" layoutX="10.0" layoutY="10.0" prefHeight="30.0" prefWidth="200.0" text="123456789" textAlignment="RIGHT">
+                            <font>
+                                <Font size="18.0" />
+                            </font></Label>
+                    </children></HBox>
+                <HBox layoutX="10.0" layoutY="10.0" prefHeight="130.0" prefWidth="450.0">
+                    <children>
+                        <Label alignment="TOP_LEFT" prefHeight="120.0" prefWidth="250.0" text="Transaction Content:">
+                            <font>
+                                <Font name="System Bold Italic" size="18.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="transactionContentLabel" alignment="TOP_RIGHT" layoutX="10.0" layoutY="10.0" prefHeight="120.0" prefWidth="200.0" text="Chuyen tien qua AIMS. Ma don hang" textAlignment="RIGHT" wrapText="true">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </HBox>
+                <HBox layoutX="10.0" layoutY="60.0" prefHeight="70.0" prefWidth="450.0">
+                    <children>
+                        <Label alignment="TOP_LEFT" prefHeight="60.0" prefWidth="250.0" text="Transaction Datetime:">
+                            <font>
+                                <Font name="System Bold Italic" size="18.0" />
+                            </font>
+                        </Label>
+                        <VBox prefHeight="60.0" prefWidth="200.0">
+                            <children>
+                                <Label fx:id="dateLabel" alignment="TOP_RIGHT" prefHeight="30.0" prefWidth="200.0" text="123456789" textAlignment="RIGHT">
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                </Label>
+                                <Label fx:id="hourLabel" alignment="TOP_RIGHT" layoutX="10.0" layoutY="10.0" prefHeight="30.0" prefWidth="200.0" text="123456789" textAlignment="RIGHT">
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+                <HBox layoutX="10.0" layoutY="111.0" prefHeight="40.0" prefWidth="450.0">
+                    <children>
+                        <Label alignment="TOP_LEFT" prefHeight="30.0" prefWidth="250.0" text="Name:">
+                            <font>
+                                <Font name="System Bold Italic" size="18.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="nameLabel" alignment="TOP_RIGHT" layoutX="10.0" layoutY="10.0" prefHeight="30.0" prefWidth="200.0" text="Abc xyz" textAlignment="RIGHT">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </HBox>
+                <HBox layoutX="10.0" layoutY="161.0" prefHeight="40.0" prefWidth="450.0">
+                    <children>
+                        <Label alignment="TOP_LEFT" prefHeight="30.0" prefWidth="250.0" text="Phone:">
+                            <font>
+                                <Font name="System Bold Italic" size="18.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="phoneLabel" alignment="TOP_RIGHT" layoutX="10.0" layoutY="10.0" prefHeight="30.0" prefWidth="200.0" text="123456789" textAlignment="RIGHT">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </HBox>
+                <HBox layoutX="10.0" layoutY="212.0" prefHeight="40.0" prefWidth="450.0">
+                    <children>
+                        <Label alignment="TOP_LEFT" prefHeight="30.0" prefWidth="250.0" text="Province:">
+                            <font>
+                                <Font name="System Bold Italic" size="18.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="provinceLabel" alignment="TOP_RIGHT" layoutX="10.0" layoutY="10.0" prefHeight="30.0" prefWidth="200.0" text="Hà Nội" textAlignment="RIGHT">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </HBox>
+                <HBox layoutX="10.0" layoutY="262.0" prefHeight="90.0" prefWidth="450.0">
+                    <children>
+                        <Label alignment="TOP_LEFT" prefHeight="80.0" prefWidth="250.0" text="Shipping address:">
+                            <font>
+                                <Font name="System Bold Italic" size="18.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="addressLabel" alignment="TOP_RIGHT" layoutX="10.0" layoutY="10.0" prefHeight="80.0" prefWidth="200.0" text="Address" textAlignment="RIGHT">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </HBox>
+                <HBox layoutX="10.0" layoutY="312.0" prefHeight="40.0" prefWidth="450.0">
+                    <children>
+                        <Label alignment="TOP_LEFT" prefHeight="30.0" prefWidth="250.0" text="Total Amount:">
+                            <font>
+                                <Font name="System Bold Italic" size="18.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="totalAmountLabel" alignment="TOP_RIGHT" layoutX="10.0" layoutY="10.0" prefHeight="30.0" prefWidth="200.0" text="900000" textAlignment="RIGHT">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+        <Label fx:id="pageTitle" layoutX="70.0" layoutY="1.0" prefHeight="96.0" prefWidth="216.0" text="Invoice" textAlignment="CENTER" textFill="#5091e6">
+            <font>
+                <Font name="Segoe UI Semibold" size="42.0" />
+            </font>
+        </Label>
+        <ScrollPane fx:id="vboxIte" hbarPolicy="NEVER" layoutX="683.0" layoutY="116.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="669.0">
+            <content>
+                <VBox fx:id="vboxItems" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="567.0" />
+            </content>
+        </ScrollPane>
+        <Button fx:id="okButton" alignment="CENTER" contentDisplay="CENTER" layoutX="544.0" layoutY="676.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="316.0" style="-fx-background-color: #5091e6;" text="OK" textFill="WHITE">
+            <font>
+                <Font name="Segoe UI Bold" size="24.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
